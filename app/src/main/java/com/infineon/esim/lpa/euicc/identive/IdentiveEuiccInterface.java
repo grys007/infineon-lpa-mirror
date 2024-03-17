@@ -41,6 +41,7 @@ final public class IdentiveEuiccInterface implements EuiccInterface {
     public static final String INTERFACE_TAG = "USB";
 
     public static final List<String> READER_NAMES = new ArrayList<>(Arrays.asList(
+            "SCR35xx USB Smart Card Reader",
             "SCR3500 A Contact Reader",
             "Identive CLOUD 4700 F Dual Interface Reader",
             "Identiv uTrust 4701 F Dual Interface Reader"
